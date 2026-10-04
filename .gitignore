@@ -1,0 +1,68 @@
+# Virtual Environment
+
+venv/
+.venv/
+env/
+
+# Python Cache
+
+**pycache**/
+*.py[cod]
+
+# Environment Variables & Secrets
+
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+
+*.log
+
+# Temporary Files
+
+*.tmp
+*.temp
+
+# Model Files
+
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Downloaded Models / Datasets
+
+models/
+model/
+data/
+dataset/
+datasets/
+
+# Python Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Testing / Coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
